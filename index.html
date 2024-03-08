@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi Curriculum Vitae</title>
+<link rel="stylesheet" href="styles.css">
+<script>
+  // Función para scroll suave
+  function scrollToElement(elementId) {
+    var element = document.getElementById(elementId);
+    if (element) {
+      element.scrollIntoView({behavior: 'smooth'});
+    }
+  }
+</script>
+</head>
+<body>
+
+<header>
+  <div class="profile">
+    <div class="profile-img">
+      <img src="foroo.jpeg" alt="Tu foto">
+    </div>
+    <div class="profile-details">
+      <h1>DANIEL SANTIAGO CAMACHO CALVO</h1>
+      <p>👨‍🎓  Estudiante, Ingeniería de Telecomunicaciones </p>
+      <p>📱  +57 316800737</p>
+      <p>📧  camachocalvo2001@hotmail.com</p>
+      <p>🌎  Bucaramanga, Colombia</p>
+      <a href="https://www.linkedin.com/in/daniel-santiago-camacho-calvo-9b55452b4/" class="linkedin-btn" target="_blank">Linkedin+</a>
+      <a href="javascript:void(0);" onclick="scrollToElement('contacto');" class="contratame-btn">Contrátame</a>
+    </div>
+  </div>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="javascript:void(0);" onclick="scrollToElement('sobre_mi')">Sobre mí 🧑</a></li>
+    <li><a href="javascript:void(0);" onclick="scrollToElement('habilidades')">Habilidades ⭐</a></li>
+    <li><a href="javascript:void(0);" onclick="scrollToElement('idiomas')">Idiomas 🗣️</a></li>
+    <li><a href="javascript:void(0);" onclick="scrollToElement('educacion')">Educación 📚</a></li>
+    <li><a href="javascript:void(0);" onclick="scrollToElement('cursos')">Cursos Complementarios 🖥️</a></li>
+    <li><a href="javascript:void(0);" onclick="scrollToElement('contacto')">Contáctame 🗺️</a></li>
+  </ul>
+</nav>
+
+<main class="cuadro">
+  <section id="sobre_mi" class="section">
+    <div class="section-content">
+      <div class="column">
+        <h2>Sobre mí</h2>
+        <p>Estudiante de Ingeniería de Telecomunicaciones, con conocimientos en programación en Python, JavaScript los cuales he aplicado en proyectos relacionados con el análisis y desarrollo de soluciones innovadoras en el campo de las telecomunicaciones.</p>
+        <p>Mi experiencia académica me ha brindado conocimientos en la resolución de problemas y la toma de decisiones bajo presión, así como una sólida capacidad analítica y de aprendizaje autodidacta. Busco oportunidades para aplicar mis habilidades técnicas y seguir creciendo profesionalmente en el campo de las telecomunicaciones.</p>
+      </div>
+      <div class="column">
+        <h2>Biografía</h2>
+        <div class="biography-details">
+          <div class="detail">Edad: <span>22 años</span></div>
+          <div class="detail">Nacimiento: <span>13 de Mayo del 2001</span></div>
+          <div class="detail">Correo: <span>camacholis101@gmail.com</span></div>
+          <div class="detail">Dirección: <span>Calle 62 #4-33</span></div>
+          <div class="detail">Hobby: <span>Videojuegos</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="habilidades" class="section">
+    <div class="section-content">
+      <h2>Habilidades</h2>
+      <div class="habilidades-container">
+        <div class="habilidad">
+          <h3>Trabajo en equipo y liderazgo</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 95%;">95%</div>
+          </div>
+        </div>
+        <div class="habilidad">
+          <h3>Actualización en tecnologías emergentes</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 90%;">90%</div>
+          </div>
+        </div>
+        <div class="habilidad">
+          <h3>Networking</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 70%;">70%</div>
+          </div>
+        </div>
+        <div class="habilidad">
+          <h3>Python</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 80%;">80%</div>
+          </div>
+        </div>
+        <div class="habilidad">
+          <h3>Javascript</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 60%;">60%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="idiomas" class="section">
+    <div class="section-content">
+      <h2>Idiomas</h2>
+      <div class="idiomas-container">
+        <div class="idioma">
+          <h3>ESPAÑOL</h3>
+          <img src="espa.png" alt="Bandera Español">
+          <p>Nivel: Nativo</p>
+        </div>
+        <div class="idioma">
+          <h3>INGLÉS</h3>
+          <img src="ingle.png" alt="Bandera Inglés">
+          <p>Nivel: B2</p>
+        </div>
+      </div>
+    </div>
+  </section>    
+
+  <section id="educacion" class="section">
+    <div class="section-content">
+      <h2>Educación</h2>
+      <p><strong style="font-family: 'Arial Black', sans-serif;">Auxiliar contable</strong><br>Colegio Integrado Nuestra Señora del Divino Amor</p>
+      <strong style="color: #66CC99;">Técnico</strong>
+      <p><strong style="font-family: 'Arial Black', sans-serif;">Ingeniería de Telecomunicaciones</strong><br>Universidad Santo Tomas</p>
+      <strong style="color: #66CC99;">En curso, noveno semestre</strong>
+    </div>
+  </section>
+
+  <section id="cursos" class="section">
+    <div class="section-content">
+        <h2>Cursos Complementarios</h2>
+        <br>
+        <div class="cursos-container">
+            <p> ⭐ CCNA: Enterprise Networking, Security, and Automation</p>
+            <p> ⭐ CCNA: Switching, Routing, and Wireless Essentials</p>
+            <p> ⭐ JavaScript Essentials 1</p>
+            <p> ⭐ Python Essentials 1</p>
+            <p> ⭐ Networking Essentials</p>
+        </div>
+        <a href="https://www.credly.com/users/daniel-santiago-camacho-calvo/badges" class="linkedin-btn" target="_blank">Mis Cursos</a>
+    </div>
+</section>
+
+
+<section id="contacto" class="section">
+    <div class="section-content">
+      <h2>Comunícate conmigo</h2>
+      <div class="contacto-container">
+        <div class="formulario">
+          <h3>Formulario de Contacto</h3>
+          <form>
+            <form>
+                <label for="nombre"></label>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+
+                <label for="telefono"></label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Teléfono" required>
+
+                <label for="correo"></label>
+                <input type="email" id="correo" name="correo" placeholder="Correo" required>
+
+                <label for="mensaje"></label>
+                <textarea id="mensaje" name="mensaje" placeholder="Mensaje" rows="10"required></textarea>
+
+                <br>
+                <center><button type="submit" class="xd">Contactarme</button></center>
+            </form>
+        </div>
+        <div class="mapa">
+          <h3>Ubicación</h3>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.709619451151!2d-73.1269421!3d7.101446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e683fc84a96ce5f%3A0x9421871ab0480498!2sLos%20Naranjos%2C%20La%20Concordia%2C%20Bucaramanga%2C%20Santander!5e0!3m2!1sen!2s!4v1646771645652!5m2!1sen!2s" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+</body>
+</html>

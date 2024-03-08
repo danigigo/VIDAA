@@ -1,0 +1,338 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('sis.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 659px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.profile {
+    background-color: rgba(215, 243, 248, 0.751);
+    padding: 26px;
+    border-radius: 90px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.profile-img img {
+    border-radius: 30%;
+    border: 5px solid #444242;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    height: 300px;
+}
+
+.profile-details {
+    margin-top: 20px;
+}
+
+.profile-details h1 {
+    margin: 5px 0;
+}
+
+.profile-details p {
+    margin: 5px 0;
+}
+
+.linkedin-btn,
+.contratame-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0077b5;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.73);
+}
+
+.linkedin-btn:hover {
+    background-color: #4cc8e7;
+}
+
+.contratame-btn {
+    background-color: #2cc14c;
+}
+
+.contratame-btn:hover {
+    background-color: #218838;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    position: relative;
+    text-align: center;
+    font-size: 22px;
+    font-family: Vollkorn;
+}
+
+nav::before,
+nav::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background-color: #666;
+}
+
+nav::before {
+    left: 0;
+}
+
+nav::after {
+    right: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+main {
+    width: 97.3%;
+    padding: 20px;
+    background-image: url('eso.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.section {
+    background-color: #eae4e4;
+    border: 10px solid #aaaaaa;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    padding: 55px;
+}
+
+.section-content {
+    text-align: center;
+}
+
+.column {
+    margin: auto;
+    max-width: 700px;
+}
+
+.biography-details {
+    padding: 0 20px;
+}
+
+.detail {
+    margin-bottom: 10px;
+}
+
+.detail span {
+    font-weight: bold;
+}
+
+form {
+    text-align: left;
+}
+
+form label,
+form input,
+form textarea,
+form button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+form button {
+    background-color: #0077b5;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #005b82;
+}
+
+.section:first-child {
+    margin-top: 50px;
+}
+
+.section h2 {
+    text-align: center;
+    color: #ff6666;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#sobre_mi .section-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#sobre_mi .column {
+    flex: 1;
+    padding: 0 50px;
+    text-align: justify;
+}
+
+#sobre_mi .biography-details {
+    padding: 0 40px;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill h3 {
+    margin-bottom: 5px;
+}
+
+.progress-bar {
+    background-color: #ddd;
+    border-radius: 5px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+.progress {
+    background-color: #0077b5;
+    color: #fff;
+    text-align: right;
+    line-height: 20px;
+    border-radius: 5px;
+}
+
+#idiomas .idiomas-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#idiomas .idioma {
+    text-align: center;
+    width: 45%;
+}
+
+#idiomas .idioma img {
+    width: 400px;
+    height: auto;
+    margin: 0 auto 10px;
+    border-radius: 90px;
+}
+
+#educacion .section-content p {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+}
+
+#educacion .section-content p strong {
+    font-family: 'Arial Black', sans-serif;
+}
+
+#educacion .section-content p strong.tecnico {
+    color: #66CC99;
+}
+
+.cursos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 425px;
+}
+
+.cursos-container p {
+    margin: 5px 0;
+}
+
+.xd {
+    background-color: #2cc14c;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.contratame-btn:hover {
+    background-color: #218838;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.contacto-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formulario,
+.mapa {
+    flex: 1;
+    padding: 20px;
+}
+
+.mapa {
+    background-color: #fff;
+    border: 5px solid #181818bb;
+    position: relative;
+}
+
+.mapa iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.mapa {
+    margin-left: 20px;
+}
+
+.contratame-btn {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+}
